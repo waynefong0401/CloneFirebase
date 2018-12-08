@@ -1,7 +1,7 @@
 const firebase = require('firebase-admin');
 
-var serviceAccountSource = require("./source.json"); // source DB key
-var serviceAccountDestination = require("./dest.json"); // destiny DB key
+var serviceAccountSource = require("./source.json"); // path to source DB key
+var serviceAccountDestination = require("./dest.json"); // path to destiny DB key
 
 const sourceAdmin = firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccountSource)

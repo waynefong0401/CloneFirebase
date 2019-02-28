@@ -18,3 +18,9 @@ go to dashboard -> Users and permissions -> Service accounts ->
 select Node.js -> Generate new private key
 
 The key will only be used to clone the DB.
+
+To run the script
+
+      npm install --save firebase-admin
+      
+

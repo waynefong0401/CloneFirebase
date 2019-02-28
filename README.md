@@ -21,6 +21,6 @@ The key will only be used to clone the DB.
 
 To run the script
 
-      npm install --save firebase-admin
+      node copyFirestoreDB.js
       
 
